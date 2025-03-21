@@ -1,0 +1,267 @@
+{
+  "profile": {
+    "name": "Bruno Xavier Bezerra",
+    "title": "Desenvolvedor Full Stack",
+    "location": "São Paulo, SP, Brasil",
+    "phone": "+55 11 98515 5855",
+    "email": "bruno@brunoxavier.com.br",
+    "links": [
+      {
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/in/brunoxavierbezerra",
+        "text": "linkedin.com/in/brunoxavierbezerra"
+      },
+      {
+        "icon": "github",
+        "url": "https://github.com/bxavier",
+        "text": "github.com/bxavier"
+      }
+    ]
+  },
+  "about": {
+    "description": "Desenvolvedor Full Stack com mais de 15 anos de experiência, especializado em frontend e soluções para o mercado financeiro e e-commerce. Profissional versátil com background em design, capaz de trabalhar diretamente com times de produto e UX para entregar soluções eficientes. Experiência em desenvolvimento Python e arquitetura event-driven com mensageria. Reconhecido pela capacidade de aprendizado rápido e resolução criativa de problemas complexos. Experiência comprovada na implementação de soluções que geraram resultados mensuráveis de negócio."
+  },
+  "skills": [
+    {
+      "title": "Frontend",
+      "items": ["Angular", "React", "Vue.js", "TypeScript", "JavaScript", "HTML5", "SASS"]
+    },
+    {
+      "title": "Backend",
+      "items": ["Node.js", "Nest.js", "Express.js", "TypeScript", "Python"]
+    },
+    {
+      "title": "Mobile",
+      "items": ["Conhecimentos em Flutter, Ionic e NativeScript"]
+    },
+    {
+      "title": "DevOps",
+      "items": ["Docker", "AWS", "Arquitetura Event-Driven", "Mensageria"]
+    },
+    {
+      "title": "Banco de Dados",
+      "items": ["PostgreSQL"]
+    },
+    {
+      "title": "Metodologias",
+      "items": ["Agile", "Scrum"]
+    },
+    {
+      "title": "Ferramentas",
+      "items": ["Git", "Figma", "REST APIs", "SOAP", "Camunda"]
+    },
+    {
+      "title": "Estudos Atuais",
+      "items": ["SSR", "Micro Frontends", "IA", "Engenharia de Prompt"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Inglês",
+      "level": "Fluente"
+    }
+  ],
+  "experience": [
+    {
+      "visible": true,
+      "place": "SEUATIVO",
+      "title": "Desenvolvedor Full Stack",
+      "period": "03/2024 - 03/2025",
+      "location": "São Paulo, SP, Brasil",
+      "description": [
+        "Único desenvolvedor responsável por todo o ecossistema de micro aplicações que facilitam a negociação de ativos entre partes interessadas.",
+        "Desenvolvimento de 10 micro aplicações em Node.js, majoritariamente com Nest.js e TypeScript",
+        "Implementação de integrações complexas com CERC para checagem e registro de notas fiscais e com BAAS para transações financeiras",
+        "Construção de frontend em Angular lidando com grandes volumes de dados",
+        "Infraestrutura em AWS utilizando Docker e arquitetura event-driven com mensageria para comunicação entre serviços",
+        "Desenvolvimento de funções específicas para gerenciamento de dados no banco de dados PostgreSQL",
+        "Implementação de scripts Python para automação de processos e análise de dados"
+      ],
+      "technologies": [
+        "Node.js",
+        "Nest.js",
+        "Express.js",
+        "TypeScript",
+        "Angular",
+        "Material UI",
+        "PostgreSQL",
+        "Docker",
+        "AWS",
+        "REST APIs",
+        "Python",
+        "Arquitetura Event-Driven com Mensageria"
+      ]
+    },
+    {
+      "visible": false,
+      "place": "NAVA",
+      "title": "Especialista Frontend",
+      "period": "09/2023 - 02/2024",
+      "location": "São Paulo, SP, Brasil",
+      "description": [
+        "Desenvolvi funcionalidades de frontend em Angular para produto de Crédito como Serviço (CaaS) do Banco Santander",
+        "Trabalhei com design system proprietário (Flame) seguindo diretrizes de UX do banco",
+        "Colaborei diretamente com designers e product owners na reestruturação das ofertas de crédito",
+        "Implementei integrações com APIs REST internas do banco"
+      ],
+      "technologies": ["Angular", "TypeScript", "REST APIs", "Design System Flame"]
+    },
+    {
+      "visible": true,
+      "place": "NT CONSULT",
+      "title": "Especialista Frontend",
+      "period": "07/2022 - 09/2023",
+      "location": "São Paulo, SP, Brasil",
+      "description": [
+        "Trabalhei no desenvolvimento de aplicações do Royal Bank Of Canada",
+        "Coordenando time multidisciplinar com inglês como idioma principal",
+        "Desenvolvi POC crucial para conquistar contrato com a Convera",
+        "Colaborei com automação de processos de pagamentos internacionais com Camunda"
+      ],
+      "technologies": ["Angular", "TypeScript", "React", "Camunda", "Figma", "REST APIs"]
+    },
+    {
+      "visible": true,
+      "place": "FACILY",
+      "title": "Especialista Frontend",
+      "period": "11/2021 - 05/2022",
+      "location": "São Paulo, SP, Brasil",
+      "description": [
+        "Desenvolvi o backoffice de e-commerce em Vue.js consumindo APIs REST",
+        "Atuei como ponto focal em discussões técnicas com times de produto e desenvolvimento",
+        "Implementei bibliotecas de componentes seguindo design system",
+        "Liderei a unificação dos times de frontend, otimizando fluxos e evitando duplicação de código"
+      ],
+      "technologies": ["Vue.js", "TypeScript", "Material UI", "REST APIs", "Design Systems"]
+    },
+    {
+      "visible": true,
+      "place": "PERNAMBUCANAS (PEFISA)",
+      "title": "Desenvolvedor Frontend",
+      "period": "08/2020 - 11/2021",
+      "location": "São Paulo, SP, Brasil",
+      "description": [
+        "Desenvolvi componentes de UI para o Internet Banking utilizados em aplicações em React",
+        "Participei da implementação inicial do PIX",
+        "Mantive foco em performance e retrocompatibilidade"
+      ],
+      "technologies": ["React", "JavaScript", "Material UI", "REST APIs", "Internet Banking"]
+    },
+    {
+      "visible": false,
+      "place": "BOA VISTA SCPC",
+      "title": "Desenvolvedor Frontend",
+      "period": "01/2020 - 08/2020",
+      "location": "São Paulo, SP, Brasil",
+      "description": [
+        "Desenvolvi SaaS (Software as a Service) white-label para negociação de débitos",
+        "Trabalhei com Angular e Bootstrap consumindo APIs REST em Java",
+        "Colaborei diretamente com time de produtos e UX para criar interfaces intuitivas",
+        "Implementei white-label (cores, fontes, logotipagem)"
+      ],
+      "technologies": ["Angular", "TypeScript", "Bootstrap", "REST APIs", "Java"]
+    },
+    {
+      "visible": false,
+      "place": "NEON PAGAMENTOS",
+      "title": "Desenvolvedor Frontend",
+      "period": "02/2019 - 11/2019",
+      "location": "São Paulo, SP, Brasil",
+      "description": [
+        "Reescrevi frontend de produtos PJ de .NET para Angular utilizando Design System proprietário",
+        "Desenvolvi pacote de componentes Angular reutilizáveis em diferentes aplicações",
+        "Implementei integrações com APIs REST e SOAP"
+      ],
+      "technologies": ["Angular", "TypeScript", ".NET", "Flutter", "REST APIs", "SOAP"]
+    },
+    {
+      "visible": false,
+      "place": "CIELO (STELO)",
+      "title": "Especialista Frontend",
+      "period": "08/2017 - 02/2019",
+      "location": "São Paulo, SP, Brasil",
+      "description": [
+        "Desenvolvi marketplace para venda de terminais POS em Vue.js",
+        "Trabalhei diretamente com time de produtos focando em UX/UI",
+        "Contribuí para o crescimento de zero para 1 milhão de terminais POS ativos em um ano",
+        "Implementei checkout utilizado por gerentes de bancos parceiros"
+      ],
+      "technologies": ["Vue.js", "JavaScript", "Bootstrap", "Figma", "REST APIs", "Java"]
+    },
+    {
+      "visible": false,
+      "place": "SEARCH OPTICS",
+      "title": "Desenvolvedor Frontend",
+      "period": "06/2015 - 06/2017",
+      "location": "São Paulo, SP, Brasil",
+      "description": [
+        "Liderei time de desenvolvedores frontend em empresa americana",
+        "Desenvolvi temas para sites de concessionárias FCA (Fiat Chrysler) e Mitsubishi",
+        "Conduzi reuniões em inglês com stakeholders americanos"
+      ],
+      "technologies": ["JavaScript", "jQuery", "SASS", "Bootstrap", "PHP", "CMS"]
+    },
+    {
+      "visible": false,
+      "place": "EDITORA ABRIL",
+      "title": "Desenvolvedor Frontend",
+      "period": "04/2014 - 05/2015",
+      "location": "São Paulo, SP, Brasil",
+      "description": [
+        "Atuei como principal desenvolvedor frontend do site Veja.com",
+        "Desenvolvi ferramentas de consumo de APIs RESTful",
+        "Recebi Prêmio Abril de Jornalismo de melhor site de 2014"
+      ],
+      "technologies": ["ERB (Rails)", "WordPress", "JavaScript", "CSS", "APIs RESTful"]
+    },
+    {
+      "visible": false,
+      "place": "AMIL SAÚDE",
+      "title": "Desenvolvedor Frontend",
+      "period": "04/2013 - 03/2014",
+      "location": "São Paulo, SP, Brasil",
+      "description": [
+        "Desenvolvi sites para o grupo Amil (One Health, Lincx, Amil Dental)",
+        "Fui responsável pela UX e lançamento do Venda Online Dental, que alavancou vendas significativamente",
+        "Implementei soluções móveis e web com diversas tecnologias"
+      ],
+      "technologies": ["Phonegap", "JSP", "Cordova", "Grunt", "SASS"]
+    },
+    {
+      "visible": false,
+      "place": "EDITORA ABRIL",
+      "title": "Desenvolvedor Frontend",
+      "period": "06/2006 - 02/2013",
+      "location": "São Paulo, SP, Brasil",
+      "description": [
+        "Desenvolvi sites, blogs, campanhas publicitárias e jogos para revistas do Núcleo Jovem",
+        "Trabalhei com publicador proprietário gerando HTML estático com JavaScript e jQuery",
+        "Colaborei diretamente com a redação para concepção de produtos",
+        "Recebi Prêmio Abril de Jornalismo em 2011 nas categorias 'Melhor uso das mídias sociais' e 'Melhor vídeo para internet'"
+      ],
+      "technologies": ["HTML", "JavaScript", "jQuery", "Bootstrap", "Freemarker", "publicador proprietário"]
+    }
+  ],
+  "education": [
+    {
+      "visible": true,
+      "place": "Anhembi Morumbi",
+      "title": "Tecnólogo em Design",
+      "period": "2002",
+      "location": "São Paulo, SP, Brasil",
+      "description": [
+        "Curso de Design Gráfico com ênfase em Design Digital",
+        "Aprendi conceitos de tipografia, colorimetria, composição visual e design de interfaces"
+      ]
+    }
+  ],
+  "additional": [
+    "Background em Design com migração para Desenvolvimento",
+    "Autodidata com constante atualização em novas tecnologias",
+    "Experiência em desenvolvimento Python e arquitetura event-driven com mensageria",
+    "Estudos em Java, Python, Svelte, SSR, Module Federation e Inteligência Artificial"
+  ],
+  "differential": [
+    "Profissional com background em design e experiência direta com times de produto, capaz de enxergar o desenvolvimento além do código, focando nas necessidades do negócio e experiência do usuário. Experiência em desenvolvimento Python e arquitetura event-driven com mensageria. Capacidade comprovada de aprender rapidamente novas tecnologias e implementar soluções criativas para problemas complexos."
+  ]
+}

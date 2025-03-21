@@ -1,0 +1,33 @@
+// Colors
+$color-background: #f5f5f5;
+$color-text-primary: #333;
+$color-text-secondary: #777777;
+$color-text-contrast-primary: #fff;
+$color-text-contrast-secondary: #ccc;
+
+$color-background-white: #fff;
+$color-background-dark: #3c3c3c;
+
+$color-border: #ddd;
+$color-border-light: currentColor;
+
+$color-shadow: rgba(0, 0, 0, 0.1);
+
+// Breakpoints
+$breakpoint-mobile: 768px;
+
+// Layout
+$container-max-width: 1100px;
+$sidebar-width: 325px;
+
+// Spacing
+$spacing-xs: 5px;
+$spacing-sm: 10px;
+$spacing-md: 15px;
+$spacing-lg: 20px;
+$spacing-xl: 30px;
+$spacing-xxl: 40px;
+
+// Typography
+$font-family-primary: 'Lato', sans-serif;
+$font-family-secondary: 'Bebas Neue', sans-serif;

@@ -1,0 +1,271 @@
+{
+  "profile": {
+    "name": "Bruno Xavier Bezerra",
+    "title": "Full Stack Developer",
+    "location": "São Paulo, SP, Brazil",
+    "phone": "+55 11 98515 5855",
+    "email": "bruno@brunoxavier.com.br",
+    "links": [
+      {
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/in/brunoxavierbezerra",
+        "text": "linkedin.com/in/brunoxavierbezerra"
+      },
+      {
+        "icon": "github",
+        "url": "https://github.com/bxavier",
+        "text": "github.com/bxavier"
+      }
+    ]
+  },
+  "about": {
+    "description": "Full Stack Developer with over 15 years of experience, specializing in frontend and solutions for the financial and e-commerce markets. Versatile professional with a design background, capable of working directly with product and UX teams to deliver efficient solutions. Experienced in Python development and event-driven architecture with messaging. Recognized for quick learning abilities and creative problem-solving for complex challenges. Proven track record in implementing solutions that generated measurable business results."
+  },
+  "skills": [
+    {
+      "title": "Frontend",
+      "items": ["Angular", "React", "Vue.js", "TypeScript", "JavaScript", "HTML5", "SASS"]
+    },
+    {
+      "title": "Backend",
+      "items": ["Node.js", "Nest.js", "Express.js", "TypeScript", "Python"]
+    },
+    {
+      "title": "Mobile",
+      "items": ["Knowledge in Flutter, Ionic, and NativeScript"]
+    },
+    {
+      "title": "DevOps",
+      "items": ["Docker", "AWS", "Event-Driven Architecture", "Messaging"]
+    },
+    {
+      "title": "Database",
+      "items": ["PostgreSQL"]
+    },
+    {
+      "title": "Methodologies",
+      "items": ["Agile", "Scrum"]
+    },
+    {
+      "title": "Tools",
+      "items": ["Git", "Figma", "REST APIs", "SOAP", "Camunda"]
+    },
+    {
+      "title": "Current Studies",
+      "items": ["SSR", "Micro Frontends", "AI", "Prompt Engineering"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "level": "Fluent"
+    },
+    {
+      "language": "Portuguese",
+      "level": "Native"
+    }
+  ],
+  "experience": [
+    {
+      "visible": true,
+      "place": "SEUATIVO",
+      "title": "Full Stack Developer",
+      "period": "03/2024 - 03/2025",
+      "location": "São Paulo, SP, Brazil",
+      "description": [
+        "Sole developer responsible for the entire ecosystem of micro-applications facilitating asset negotiation between stakeholders.",
+        "Developed 10 micro-applications in Node.js, primarily using Nest.js and TypeScript.",
+        "Implemented complex integrations with CERC for invoice verification and registration, and with BAAS for financial transactions.",
+        "Built Angular frontend handling large volumes of data.",
+        "AWS infrastructure using Docker and event-driven architecture with messaging for service communication.",
+        "Developed specific functions for data management in PostgreSQL databases.",
+        "Implemented Python scripts for process automation and data analysis."
+      ],
+      "technologies": [
+        "Node.js",
+        "Nest.js",
+        "Express.js",
+        "TypeScript",
+        "Angular",
+        "Material UI",
+        "PostgreSQL",
+        "Docker",
+        "AWS",
+        "REST APIs",
+        "Python",
+        "Event-Driven Architecture with Messaging"
+      ]
+    },
+    {
+      "visible": false,
+      "place": "NAVA",
+      "title": "Frontend Specialist",
+      "period": "09/2023 - 02/2024",
+      "location": "São Paulo, SP, Brazil",
+      "description": [
+        "Developed frontend features in Angular for Santander Bank's Credit as a Service (CaaS) product.",
+        "Worked with a proprietary design system (Flame) following the bank's UX guidelines.",
+        "Collaborated directly with designers and product owners to restructure credit offerings.",
+        "Implemented integrations with internal REST APIs."
+      ],
+      "technologies": ["Angular", "TypeScript", "REST APIs", "Design System Flame"]
+    },
+    {
+      "visible": true,
+      "place": "NT CONSULT",
+      "title": "Frontend Specialist",
+      "period": "07/2022 - 09/2023",
+      "location": "São Paulo, SP, Brazil",
+      "description": [
+        "Worked on the development of applications for the Royal Bank of Canada.",
+        "Coordinated a multidisciplinary team with English as the primary language.",
+        "Developed a crucial POC to secure a contract with Convera.",
+        "Collaborated on automating international payment processes using Camunda."
+      ],
+      "technologies": ["Angular", "TypeScript", "React", "Camunda", "Figma", "REST APIs"]
+    },
+    {
+      "visible": true,
+      "place": "FACILY",
+      "title": "Frontend Specialist",
+      "period": "11/2021 - 05/2022",
+      "location": "São Paulo, SP, Brazil",
+      "description": [
+        "Developed the e-commerce backoffice in Vue.js consuming REST APIs.",
+        "Acted as the focal point in technical discussions with product and development teams.",
+        "Implemented component libraries following a design system.",
+        "Led the unification of frontend teams, optimizing workflows and avoiding code duplication."
+      ],
+      "technologies": ["Vue.js", "TypeScript", "Material UI", "REST APIs", "Design Systems"]
+    },
+    {
+      "visible": true,
+      "place": "PERNAMBUCANAS (PEFISA)",
+      "title": "Frontend Developer",
+      "period": "08/2020 - 11/2021",
+      "location": "São Paulo, SP, Brazil",
+      "description": [
+        "Developed UI components for Internet Banking used in React applications.",
+        "Participated in the initial implementation of PIX.",
+        "Maintained a focus on performance and backward compatibility."
+      ],
+      "technologies": ["React", "JavaScript", "Material UI", "REST APIs", "Internet Banking"]
+    },
+    {
+      "visible": false,
+      "place": "BOA VISTA SCPC",
+      "title": "Frontend Developer",
+      "period": "01/2020 - 08/2020",
+      "location": "São Paulo, SP, Brazil",
+      "description": [
+        "Developed a white-label SaaS (Software as a Service) for debt negotiation.",
+        "Worked with Angular and Bootstrap consuming REST APIs in Java.",
+        "Collaborated directly with product and UX teams to create intuitive interfaces.",
+        "Implemented white-label solutions (colors, fonts, branding)."
+      ],
+      "technologies": ["Angular", "TypeScript", "Bootstrap", "REST APIs", "Java"]
+    },
+    {
+      "visible": false,
+      "place": "NEON PAGAMENTOS",
+      "title": "Frontend Developer",
+      "period": "02/2019 - 11/2019",
+      "location": "São Paulo, SP, Brazil",
+      "description": [
+        "Rewrote the frontend of PJ products from .NET to Angular using a proprietary Design System.",
+        "Developed a reusable Angular component library for different applications.",
+        "Implemented integrations with REST and SOAP APIs."
+      ],
+      "technologies": ["Angular", "TypeScript", ".NET", "Flutter", "REST APIs", "SOAP"]
+    },
+    {
+      "visible": false,
+      "place": "CIELO (STELO)",
+      "title": "Frontend Specialist",
+      "period": "08/2017 - 02/2019",
+      "location": "São Paulo, SP, Brazil",
+      "description": [
+        "Developed a marketplace for POS terminal sales in Vue.js.",
+        "Worked directly with product teams focusing on UX/UI.",
+        "Contributed to growing active POS terminals from zero to 1 million in one year.",
+        "Implemented a checkout system used by partner bank managers."
+      ],
+      "technologies": ["Vue.js", "JavaScript", "Bootstrap", "Figma", "REST APIs", "Java"]
+    },
+    {
+      "visible": false,
+      "place": "SEARCH OPTICS",
+      "title": "Frontend Developer",
+      "period": "06/2015 - 06/2017",
+      "location": "São Paulo, SP, Brazil",
+      "description": [
+        "Led a team of frontend developers at an American company.",
+        "Developed themes for FCA (Fiat Chrysler) and Mitsubishi dealership websites.",
+        "Conducted meetings in English with American stakeholders."
+      ],
+      "technologies": ["JavaScript", "jQuery", "SASS", "Bootstrap", "PHP", "CMS"]
+    },
+    {
+      "visible": false,
+      "place": "EDITORA ABRIL",
+      "title": "Frontend Developer",
+      "period": "04/2014 - 05/2015",
+      "location": "São Paulo, SP, Brazil",
+      "description": [
+        "Served as the lead frontend developer for Veja.com.",
+        "Developed tools for consuming RESTful APIs.",
+        "Received the Abril Journalism Award for Best Website in 2014."
+      ],
+      "technologies": ["ERB (Rails)", "WordPress", "JavaScript", "CSS", "RESTful APIs"]
+    },
+    {
+      "visible": false,
+      "place": "AMIL SAÚDE",
+      "title": "Frontend Developer",
+      "period": "04/2013 - 03/2014",
+      "location": "São Paulo, SP, Brazil",
+      "description": [
+        "Developed websites for the Amil group (One Health, Lincx, Amil Dental).",
+        "Responsible for UX and the launch of Venda Online Dental, which significantly boosted sales.",
+        "Implemented mobile and web solutions using various technologies."
+      ],
+      "technologies": ["Phonegap", "JSP", "Cordova", "Grunt", "SASS"]
+    },
+    {
+      "visible": false,
+      "place": "EDITORA ABRIL",
+      "title": "Frontend Developer",
+      "period": "06/2006 - 02/2013",
+      "location": "São Paulo, SP, Brazil",
+      "description": [
+        "Developed websites, blogs, advertising campaigns, and games for youth magazines.",
+        "Worked with a proprietary publisher generating static HTML with JavaScript and jQuery.",
+        "Collaborated directly with the editorial team for product conception.",
+        "Received the Abril Journalism Award in 2011 for 'Best Use of Social Media' and 'Best Internet Video.'"
+      ],
+      "technologies": ["HTML", "JavaScript", "jQuery", "Bootstrap", "Freemarker", "proprietary publisher"]
+    }
+  ],
+  "education": [
+    {
+      "visible": true,
+      "place": "Anhembi Morumbi",
+      "title": "Associate Degree in Design",
+      "period": "2002",
+      "location": "São Paulo, SP, Brazil",
+      "description": [
+        "Graphic Design course with a focus on Digital Design.",
+        "Learned concepts of typography, colorimetry, visual composition, and interface design."
+      ]
+    }
+  ],
+  "additional": [
+    "Design background transitioning to Development.",
+    "Self-taught with constant upskilling in new technologies.",
+    "Experience in Python development and event-driven architecture with messaging.",
+    "Ongoing studies in Java, Python, Svelte, SSR, Module Federation, and Artificial Intelligence."
+  ],
+  "differential": [
+    "Professional with a design background and direct experience with product teams, able to see development beyond code, focusing on business needs and user experience. Experienced in Python development and event-driven architecture with messaging. Proven ability to quickly learn new technologies and implement creative solutions to complex problems."
+  ]
+}
