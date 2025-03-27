@@ -17,6 +17,9 @@ const messages = {
     generating: 'Gerando PDF...',
     language: 'Idioma',
     profilePhoto: 'Foto de perfil',
+    showVisibleExperience: 'Mostrar experiência visível',
+    showAllExperience: 'Mostrar toda experiência',
+    experienceNote: 'Esta é uma versão resumida das minhas experiências.',
   },
   en: {
     about: 'About',
@@ -30,6 +33,9 @@ const messages = {
     generating: 'Generating PDF...',
     language: 'Language',
     profilePhoto: 'Profile photo',
+    showVisibleExperience: 'Show visible experience',
+    showAllExperience: 'Show all experience',
+    experienceNote: 'This is a shortened version of my experience.',
   },
 };
 

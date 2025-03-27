@@ -42,11 +42,8 @@
 </template>
 
 <script setup lang="ts">
-import profilePic from '@/assets/images/profile-pic.jpeg';
-import { useI18n } from 'vue-i18n';
+import profilePic from '../assets/images/profile-pic.jpeg';
 import type { CVData } from '../types';
-
-const { t } = useI18n();
 
 defineProps<{
   data: CVData;

@@ -1,5 +1,5 @@
 <template>
-  <div class="timeline-item">
+  <div class="timeline-item" :class="{ 'timeline-item--last': isLast }">
     <div class="timeline-item__info">
       <div class="timeline-item__company">{{ item.place }}</div>
       <div class="timeline-item__date">{{ formatPeriod(item.period) }}</div>
@@ -26,6 +26,7 @@ const { t } = useI18n();
 
 defineProps<{
   item: TimelineItem;
+  isLast?: boolean;
 }>();
 
 /**
@@ -57,7 +58,8 @@ const formatPeriod = (period: string): string => {
     background-color: $color-text-primary;
   }
 
-  &:last-child::before {
+  &:last-child::before,
+  &.timeline-item--last::before {
     bottom: -$spacing-md;
   }
 

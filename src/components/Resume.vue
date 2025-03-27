@@ -2,7 +2,7 @@
   <div class="app">
     <div class="app__container">
       <Sidebar :data="data" />
-      <MainContent :data="data" />
+      <MainContent :data="data" :showAllExperience="showAllExperience" />
     </div>
     <div class="app__buttons">
       <button 
@@ -14,6 +14,17 @@
         <span v-else class="app__button-icon">📄</span>
         {{ isGeneratingPDF ? $t('generating') : $t('downloadPDF') }}
       </button>
+      
+      <div class="app__filter-buttons">
+        <select 
+          class="app__select" 
+          v-model="showAllExperience"
+          :disabled="isGeneratingPDF"
+        >
+          <option :value="false">{{ $t('showVisibleExperience') || 'Show visible experience' }}</option>
+          <option :value="true">{{ $t('showAllExperience') || 'Show all experience' }}</option>
+        </select>
+      </div>
       
       <div class="app__language-buttons">
         <button 
@@ -61,6 +72,7 @@ const router = useRouter();
 const currentLocale = ref(locale.value);
 const data = ref<CVData>(getCVContent(locale.value));
 const isGeneratingPDF = ref(false);
+const showAllExperience = ref(false);
 
 // Set the initial language based on the defaultLocale prop
 onMounted(() => {
@@ -90,7 +102,7 @@ const downloadPDF = async () => {
   if (isGeneratingPDF.value) return;
   
   isGeneratingPDF.value = true;
-  const element = document.querySelector('.app__container');
+  const element: HTMLElement | null = document.querySelector('.app__container');
   
   if (!element) {
     console.error('CV container element not found');
@@ -101,7 +113,7 @@ const downloadPDF = async () => {
   try {
     const opt = {
       margin: 0,
-      filename: `cv-brunoxavier-${locale.value}.pdf`,
+      filename: `cv-brunoxavier-${locale.value}-${showAllExperience.value ? 'full' : 'short'}-${new Date().toISOString().split('T')[0]}.pdf`,
       image: { type: 'jpeg', quality: 0.95 },
       html2canvas: { 
         scale: 2,
@@ -114,7 +126,7 @@ const downloadPDF = async () => {
       jsPDF: { 
         unit: 'px', 
         format: [element.offsetWidth, element.offsetHeight],
-        orientation: 'portrait',
+        orientation: 'portrait' as const,
         compress: true,
         hotfixes: ["px_scaling"]
       },
@@ -208,6 +220,36 @@ const downloadPDF = async () => {
     
     &--spin {
       animation: spin 2s linear infinite;
+    }
+  }
+
+  &__filter-buttons {
+    display: flex;
+    gap: $spacing-sm;
+  }
+  
+  &__select {
+    padding: 12px 16px;
+    background-color: $color-background-dark;
+    color: $color-text-contrast-primary;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    min-width: 200px;
+    
+    &:hover:not(:disabled) {
+      background-color: color.adjust($color-background-dark, $lightness: 10%);
+    }
+    
+    &:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+    }
+    
+    option {
+      background-color: $color-background-dark;
+      color: $color-text-contrast-primary;
     }
   }
 

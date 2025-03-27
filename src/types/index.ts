@@ -1,6 +1,7 @@
 export interface Link {
   url: string;
   text: string;
+  icon?: string;
 }
 
 export interface Profile {

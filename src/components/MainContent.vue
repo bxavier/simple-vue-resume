@@ -25,18 +25,23 @@
     <section class="main__section main__section--experience">
       <h2 class="main__section-title">{{ $t('professionalExperience') }}</h2>
       <TimelineItem
-        v-for="item in visibleExperience"
+        v-for="(item, index) in visibleExperience"
         :key="item.place"
         :item="item"
+        :is-last="index === visibleExperience.length - 1"
       />
+      <div v-if="!showAllExperience" class="main__experience-note">
+        {{ $t('experienceNote') }}
+      </div>
     </section>
 
     <section class="main__section main__section--education">
       <h2 class="main__section-title">{{ $t('education') }}</h2>
       <TimelineItem
-        v-for="item in data?.education"
+        v-for="(item, index) in data?.education"
         :key="item.place"
         :item="item"
+        :is-last="index === (data?.education?.length || 0) - 1"
       />
     </section>
   </main>
@@ -52,14 +57,19 @@ const { t } = useI18n();
 
 const props = defineProps<{
   data: CVData;
+  showAllExperience?: boolean;
 }>();
 
 const visibleExperience = computed(() => {
+  if (props.showAllExperience) {
+    return props.data?.experience || [];
+  }
   return props.data?.experience?.filter((item) => item.visible) || [];
 });
 </script>
 
 <style lang="scss" scoped>
+@use 'sass:color';
 .main {
   flex: 1;
   padding: $spacing-lg $spacing-lg 0 $spacing-lg;
@@ -159,6 +169,14 @@ const visibleExperience = computed(() => {
     @media (max-width: $breakpoint-mobile) {
       justify-content: flex-start;
     }
+  }
+
+  &__experience-note {
+    text-align: right;
+    font-size: 0.9em;
+    font-style: italic;
+    color: color.adjust($color-text-secondary, $lightness: 30%);
+    margin-top: $spacing-md;
   }
 }
 </style> 
